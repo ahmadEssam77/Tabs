@@ -7,7 +7,7 @@ function openCity(evt, cityName) {
         tabcontent[i].style.display = "none";
     }
 
-    //Get all elemts with class -tablinks- and remove the class active 
+    //Get all elemnts with class -tablinks- and remove the class active 
     tablinks = document.getElementsByClassName('tablinks');
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace("active", "");
